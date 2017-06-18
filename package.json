@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "documentation": "^4.0.0-rc.1",
+    "flow-bin": "^0.48.0"
+  }
+}
