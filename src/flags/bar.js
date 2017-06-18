@@ -2,9 +2,9 @@
 
 /**
  * returns the length of a string
- * @returns number the length
+ * @returns the length
  */
-function bar (s: string): number {
+function bar (s: string = 'bar'): number {
   return s.length
 }
 
