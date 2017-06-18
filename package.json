@@ -1,15 +1,16 @@
 {
   "name": "flow-doc-test",
   "version": "1.0.0",
-  "main": "src/index.js",
-  "scripts": {
-    "version": "documentation readme -s API"
-  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-eslint": "^7.2.3",
     "documentation": "^4.0.0-rc.1",
     "eslint": "^4.0.0",
     "flow-bin": "^0.48.0"
+  },
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "version": "documentation readme -s API"
   }
 }
