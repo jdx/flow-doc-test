@@ -11,6 +11,6 @@
   "main": "src/index.js",
   "private": true,
   "scripts": {
-    "version": "documentation readme -s API"
+    "version": "documentation readme -s API && git add README.md"
   }
 }
