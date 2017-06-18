@@ -3,8 +3,8 @@
 /**
  * returns the length of a string
  */
-function foo (s: string): number {
+function bar (s: string): number {
   return s.length
 }
 
-exports.foo = foo
+module.exports = bar
